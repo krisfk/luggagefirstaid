@@ -385,16 +385,16 @@
             <div class="menu-home-container">
                 <ul id="menu-home-1" class="mobile-menu">
                     <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item">
-                        <a href="https://luggagefirstaid.com/">主頁</a>
+                        <a href="#">主頁</a>
                     </li>
                     <li class="menu-item menu-item-type-custom menu-item-object-custom">
-                        <a href="https://luggagefirstaid.com/#about">關於喼救站</a>
+                        <a href="#about">關於喼救站</a>
                     </li>
                     <li class="menu-item menu-item-type-custom menu-item-object-custom">
-                        <a href="https://luggagefirstaid.com/#flow">維修流程</a>
+                        <a href="#flow">維修流程</a>
                     </li>
                     <li class="menu-item menu-item-type-custom menu-item-object-custom">
-                        <a href="https://luggagefirstaid.com/#contact">聯絡我們</a>
+                        <a href="#contact">聯絡我們</a>
                     </li>
                 </ul>
             </div>
@@ -2271,11 +2271,26 @@
         var $ = jQuery;
         $(function() {
             $('.luggage-slide').slick({
+                centerMode: true,
+                // centerPadding: '60px',
                 slidesToShow: 3,
-                arrows: false,
-                slidesToScroll: 1,
-                autoplay: true,
-                autoplaySpeed: 2000,
+                responsive: [{
+                    breakpoint: 768,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        // centerPadding: '40px',
+                        slidesToShow: 3,
+                    },
+                }, {
+                    breakpoint: 480,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        // centerPadding: '40px',
+                        slidesToShow: 1,
+                    },
+                }, ],
             });
         });
     </script>
