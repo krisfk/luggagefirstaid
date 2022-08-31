@@ -1,0 +1,1 @@
+{"fundtransferresponse":{"status":{"success":true,"successdebit":true,"successcredit":true},"balance":11.90,"currencycode":"ZAR"}}
