@@ -222,9 +222,9 @@ img.aligncenter {
 
 p {
     margin-bottom: 10px;
-    color: #95a5a6;
+    color: #fff;
     font-weight: 400;
-    font-size: 13px;
+    font-size: 22px;
     line-height: 2.1;
     letter-spacing: 0.8px;
 }
@@ -914,7 +914,12 @@ dl.gallery-item {
     right: 0;
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and ( min--moz-device-pixel-ratio: 2), only screen and ( -o-min-device-pixel-ratio: 2/1), only screen and ( min-device-pixel-ratio: 2), only screen and ( min-resolution: 192dpi), only screen and ( min-resolution: 2dppx) {
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and ( min--moz-device-pixel-ratio: 2),
+only screen and ( -o-min-device-pixel-ratio: 2/1),
+only screen and ( min-device-pixel-ratio: 2),
+only screen and ( min-resolution: 192dpi),
+only screen and ( min-resolution: 2dppx) {
     .menu-icon-retina {
         display: block;
     }
@@ -923,7 +928,12 @@ dl.gallery-item {
     }
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 767px), only screen and ( min--moz-device-pixel-ratio: 2) and (max-width: 767px), only screen and ( -o-min-device-pixel-ratio: 2/1) and (max-width: 767px), only screen and ( min-device-pixel-ratio: 2) and (max-width: 767px), only screen and ( min-resolution: 192dpi) and (max-width: 767px), only screen and ( min-resolution: 2dppx) and (max-width: 767px) {
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 767px),
+only screen and ( min--moz-device-pixel-ratio: 2) and (max-width: 767px),
+only screen and ( -o-min-device-pixel-ratio: 2/1) and (max-width: 767px),
+only screen and ( min-device-pixel-ratio: 2) and (max-width: 767px),
+only screen and ( min-resolution: 192dpi) and (max-width: 767px),
+only screen and ( min-resolution: 2dppx) and (max-width: 767px) {
     .menu-icon-mobile {
         display: none !important;
     }
@@ -1655,7 +1665,7 @@ a.share-post.icon-share {
 
 span.prev-post-details-categories,
 span.next-post-details-categories {
-    color: #95a5a6;
+    color: #fff;
     font-weight: 400;
     font-size: 13px;
     letter-spacing: 0px;
@@ -2920,11 +2930,19 @@ a.pego_post_article_read_more {
 
 .single_workflow_title {
     color: #1d1d1f;
-    font-size: 24px;
+    font-size: 25px;
     font-weight: 700;
     margin: 0;
     padding: 0;
     line-height: 1;
+}
+
+.single_workflow_content {
+    margin-top: 1rem;
+}
+
+.single_workflow_content p {
+    font-size: 22px;
 }
 
 .single_workflow_left {
@@ -2953,7 +2971,7 @@ a.pego_post_article_read_more {
 }
 
 .single_workflow_right_data {
-    width: 50%;
+    width: 55%;
     float: left;
     text-align: left;
     padding-left: 30px;
@@ -3117,7 +3135,7 @@ a.portfolio-grid-single-read-more:hover .button-arrow-left {
 }
 
 .blockquote.type1 p {
-    font-size: 18px;
+    font-size: 22px;
     color: #000;
     line-height: 1.6;
     font-weight: 400;
